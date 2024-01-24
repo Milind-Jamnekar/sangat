@@ -15,6 +15,9 @@ import { FloatingToolbar } from '@/components/plate-ui/floating-toolbar';
 import { FloatingToolbarButtons } from '@/components/plate-ui/floating-toolbar-buttons';
 import { MentionCombobox } from '@/components/plate-ui/mention-combobox';
 
+import { FixedToolbar } from './plate-ui/fixed-toolbar';
+import { FixedToolbarButtons } from './plate-ui/fixed-toolbar-buttons';
+
 export default function PlateEditor() {
   const containerRef = useRef(null);
 
@@ -42,7 +45,7 @@ export default function PlateEditor() {
           </FixedToolbar> */}
 
           <Editor
-            className="px-[96px] py-16"
+            className="px-[86px] py-16"
             autoFocus
             focusRing={false}
             variant="ghost"
