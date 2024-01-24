@@ -13,7 +13,6 @@ import { CommentToolbarButton } from '@/components/plate-ui/comment-toolbar-butt
 import { LinkToolbarButton } from '@/components/plate-ui/link-toolbar-button';
 
 import { MarkToolbarButton } from './mark-toolbar-button';
-import { MoreDropdownMenu } from './more-dropdown-menu';
 import { TurnIntoDropdownMenu } from './turn-into-dropdown-menu';
 
 export function FloatingToolbarButtons() {
@@ -53,7 +52,7 @@ export function FloatingToolbarButtons() {
 
       <CommentToolbarButton />
 
-      <MoreDropdownMenu />
+      {/* <MoreDropdownMenu /> */}
     </>
   );
 }
